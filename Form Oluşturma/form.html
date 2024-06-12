@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form oluşturma</title>
+</head>
+<body>
+    <form>
+        <label for="name">Adınız:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="surname">Soyadınız:</label><br>
+        <input type="text" id="surname" name="surname"><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Şifreniz:</label><br>
+        <input type="password" id="password"><br>
+        
+        <p>Cinsiyet:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Erkek</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın</label><br>
+
+        <label for="fruit">Meyve Seçiniz:</label><br>
+        <select id="fruit" name="fruit">
+        <option value="apple">Elma</option>
+        <option value="banana">Muz</option>
+        <option value="strawberry">Çilek</option>
+        </select><br>
+
+        <label for="message">Mesajınız:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        
+        <input type="submit" value="Gönder">
+      </form>
+</body>
+</html>
